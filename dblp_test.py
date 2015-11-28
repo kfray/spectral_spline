@@ -12,7 +12,7 @@ my_test.fit(interpolate.UnivariateSpline, k)
 my_test.plot()
 
 with open('dblp_score.txt', 'w') as score:
-    score.write(str(my_test.score())
+    score.write(str(my_test.score()))
 
 with open('dblp_dpline.pickle', 'wb') as handle:
-  pickle.dump(my_test, handle)
+    pickle.dump(my_test, handle)
